@@ -28,7 +28,7 @@ wifi_password: "hard-to-guess"
 wifi_ap_password: "hard-to-guess"
 
 # Home Assistant API
-api_password: "hard-to-guess"
+api_encryption_key: "hard-to-guess"
 
 # OTA
 ota_password: "hard-to-guess"
