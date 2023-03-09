@@ -40,7 +40,7 @@ ota_password: "hard-to-guess"
 esphome \
   -s name esphome \
   -s fullname ESPHome \
-  -s board esp01_1m \
+  -s board nodemcu \
   run example.yaml
 ```
 

@@ -6,7 +6,7 @@ substitutions:
   fullname: "ESPHome"
 
   # Board
-  board: esp01_1m
+  board: nodemcu
 
   # Domain
   domain: .homelab.com

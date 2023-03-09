@@ -1,0 +1,12 @@
+# Board
+<<: !include board/nodemcu_8266.yaml
+
+# Business
+sensor:
+  - platform: dht
+    pin: GPIO14
+    temperature:
+      name: "${fullname} Temperature"
+    humidity:
+      name: "${fullname} Humidity"
+    update_interval: 15s
